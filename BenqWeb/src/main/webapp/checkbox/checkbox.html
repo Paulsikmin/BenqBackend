@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>체크박스 서블릿</title>
+	</head>
+	<body>
+		<h1>가고 싶은 관광지를 선택하세요(중복가능)</h1>
+		<form action="/CheckboxServlet" method="get">
+			<input type="checkbox" name="place" value="japan"> 일본
+			<input type="checkbox" name="place" value="france"> 프랑스
+			<input type="checkbox" name="place" value="swiss"> 스위스
+			<input type="checkbox" name="place" value="italy"> 이탈리아
+			<input type="checkbox" name="place" value="usa"> 미국
+			<input type="submit" value="결과 보기">
+		</form>
+	</body>
+</html>
